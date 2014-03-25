@@ -49,7 +49,9 @@ li a{
 	background-color: red;
 	width:750px;
 	border-radius:15px;
+	height: 50px;
 }
 #footer p {
 	color: white;
+	text-align:center;
 }
