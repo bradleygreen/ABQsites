@@ -1,22 +1,30 @@
 body{ 
-background-color: #FFFF00;
+	background-color: #FFFF00;
+	width: 750px;
+	margin: 0 auto;
 }
 
 #navbar{
 	position: absolute;
 	margin-top: 150px;
+	
 }
 
 #navbar ul{
 	list-style-type:none;
 	margin:0;
 	padding:0;
-	width: 130px;
 }
 
 #navbar li{
 	border-radius: 10%;
 	background-color: red;
-	border: 1px solid black;
+	border: 2px solid black;
+	display: inline;
+}
+
+li a{
+	text-decoration: none;
 	color: yellow;
+	font-size: 20px;
 }
