@@ -1,9 +1,17 @@
-body{ 
-	background-color: #FFFF00;
-	width: 750px;
-	margin: 0 auto;
-}
 
+body {
+		background-image: url(http://www.globeimages.net/data/media/5/tanoan_sandias_with_snow_albuquerque.jpg); 
+		background-repeat: no-repeat;
+		background-size: 100%;
+	
+	}
+img{
+	border-radius: 20px;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
 #banner{
 	margin-top: 5px;
 	border-radius: 20px;
@@ -41,14 +49,19 @@ body{
 
 p{
 font-family: serif;
-font-style:normal;
-color:red;
 }
 
 h1{
-color:red;
-font-style:normal;
 font-family:serif;
+text-align: center;
+}
+
+#text{
+	width:750px;
+	margin: auto;
+	background: rgba(255,255,255,0.7);
+	padding: 0px 15px 15px 15px;
+
 }
 
 #footer {
