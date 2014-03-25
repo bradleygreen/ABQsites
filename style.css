@@ -3,11 +3,21 @@ body{
 	width: 750px;
 	margin: 0 auto;
 }
-
 #navbar{
 	position: absolute;
 	margin-top: 150px;
+}
 	
+p{
+font-family: serif;
+font-style:normal;
+font-color:red;
+}
+
+h1{
+font-color:red;
+font-style:normal;
+font-family:serif;
 }
 
 #navbar ul{
