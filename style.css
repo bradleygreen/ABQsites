@@ -16,6 +16,7 @@ background-color: #FFFF00;
 
 #navbar li{
 	border-radius: 10%;
-	background-color: yellow;
-	border: 1px solid red;
+	background-color: red;
+	border: 1px solid black;
+	color: yellow;
 }
