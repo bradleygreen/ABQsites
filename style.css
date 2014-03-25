@@ -1,4 +1,3 @@
-
 body {
 		background-image: url(http://www.globeimages.net/data/media/5/tanoan_sandias_with_snow_albuquerque.jpg); 
 		background-repeat: no-repeat;
@@ -23,22 +22,20 @@ img{
 	text-align: center;
 	background: linear-gradient(#ff0000, #A60000);	
 	border-radius:15px;
-	height:30px;
+	//padding: 3px;
 }
 
 #navbutton{
 	display: inline-block;
 	text-align: center;
 	width: 100px;
-	border-radius: 10px;
-	border: 1px dotted yellow;
+	background: linear-gradient(#ff0000, #A60000);
 	padding: 2px;
 	font-weight: bold;
 }
 
 #navbutton:hover{
-	border: 1px solid black;
-	background-color: yellow;
+	background: linear-gradient(#ffff99, #e5e500);
 	color: red;
 }
 
