@@ -1,8 +1,8 @@
 body {
 		background-image: url(http://www.globeimages.net/data/media/5/tanoan_sandias_with_snow_albuquerque.jpg); 
 		background-repeat: no-repeat;
+		background-attachment: fixed;
 		background-size: 100%;
-	
 	}
 img{
 	border-radius: 20px;
