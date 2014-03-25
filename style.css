@@ -51,7 +51,7 @@ font-family:serif;
 }
 
 #footer {
-	background: linear-gradient(#ff0000 #A60000);
+	background: linear-gradient(#ff0000, #A60000);
 	width:750px;
 	border-radius:15px;
 	
