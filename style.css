@@ -11,10 +11,19 @@ body img{
 	position: absolute;
 	margin-top: 150px;
 }
+
 #navbar div{
-	
+	display: inline;
+	width: 100px;
+	border-radius: 10px;
+	border: 1px solid red;
 }
-	
+
+#navbar a{
+	text-decoration: none;
+	color: red;
+}
+
 p{
 font-family: serif;
 font-style:normal;
@@ -27,24 +36,6 @@ font-style:normal;
 font-family:serif;
 }
 
-#navbar ul{
-	list-style-type:none;
-	margin:0;
-	padding:0;
-}
-
-#navbar li{
-	border-radius: 10%;
-	background-color: red;
-	border: 2px solid black;
-	display: inline;
-}
-
-li a{
-	text-decoration: none;
-	color: yellow;
-	font-size: 20px;
-}
 #footer {
 	background-color: red;
 	width:750px;
