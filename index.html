@@ -2,6 +2,29 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<style> 
+#animate{
+width: 100px;
+color: red;
+position:relative;
+-webkit-animation-name:visit;
+-webkit-animation-duration:5s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+}
+@-webkit-keyframes visit
+{
+0%   {color:red;-webkit-transform: rotate(0deg); left:0px;}
+25%  {color:blue;-webkit-transform: rotate(20deg); left:0px;}
+50%  {color:yellow;-webkit-transform: rotate (0deg); left:620px;}
+75%  {color:teal;-webkit-transform: rotate(0deg); left:620px;}
+100% {color:green;-webkit-transform: rotate(-360deg); left:0px;}
+}
+
+</style>
+		
 	</head>
 	<body>
 		<a href="index.html"><img id="banner" src="images/banner.jpg" /></a>
@@ -13,9 +36,10 @@
 			<a href="museum.html"><div id="navbutton">Museum</div></a>
 		</div>
 		<div id="text">
-			<h1>Welcome to the best stuff to do in ABQ website</h1>
+			<h1>Welcome to the best stuff to do in ABQ website!</h1>
+			<div id="animate"><h1>VISIT ABQ!</h1></div>
 			<img src="http://media-cdn.tripadvisor.com/media/photo-s/01/e8/1f/24/sandia-sunset.jpg" />
-			<p>We've got the best stuff to do, so just click on the menu links to find out about the best bar, gym, hiking trail, coffee shop and museum. We continually review and update our sites to give you up-to-date information on ABQ's scene.</p>
+			<p>We've got the best stuff to do, so just click on the menu links to find out about the best bar, gym, hiking trail, coffee shop and museum. We continually review and update our site to give you up-to-date information about the ABQ scene.</p>
 		</div>
 	</body>
 </html>
